@@ -7,7 +7,7 @@ This example will cover:
 
 Basic Test case creation using Java/TestNG framework using Appium Library/Appium Server.
 
-### Getting Started
+### Steps to run demo test
 
 1. Clone this git repository
 
@@ -42,5 +42,7 @@ Basic Test case creation using Java/TestNG framework using Appium Library/Appium
       ```
 
 
-5. Please follow the section "Executing the Test" in the blog.
+5. To know how execute the test,
+      * Open the cloned project in IntelliJ (Menu > Open )
+      * Please follow the section "Executing the Test" in the blog.
 
