@@ -23,9 +23,9 @@ Basic Test case creation using Java/TestNG framework using Appium Library/Appium
 4. Modify following variables in the code if necessary
    Open EribankTest.java and modify static variables if necessary,
     Appium Server listening host and port
-      a) public static final String APPIUM_SRV_URL = "http://localhost:4723/wd/hub";
+      * public static final String APPIUM_SRV_URL = "http://localhost:4723/wd/hub";
     Path of the Eribank application (in case downloaded location is different)
-      b) public static final String APP_PATH = "C:\\eribank.apk";
+      * public static final String APP_PATH = "C:\\eribank.apk";
     Device name (After excecuting adb devices. See "Android device recognition" in the blogs)
-      c) public static final String DEVICE_NAME = "a3ae1c63";
+      * public static final String DEVICE_NAME = "a3ae1c63";
 5. Please follow the section "Executing the Test" in the blog.
