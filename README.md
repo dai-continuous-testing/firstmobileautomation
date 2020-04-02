@@ -20,6 +20,8 @@ Basic Test case creation using Java/TestNG framework using Appium Library/Appium
 
 3. Download the Eribank application using URL : https://experitest.s3.amazonaws.com/eribank.apk to c:\\  (The code uses the Application from c:\\ (in windows). Please change the code in case you   change the download location)
 
+4. Import the cloned project in IntelliJ as a Gradle project.
+
 4. Modify following variables in the code if necessary
    Open EribankTest.java and modify static variables if necessary,
 
@@ -41,8 +43,6 @@ Basic Test case creation using Java/TestNG framework using Appium Library/Appium
       public static final String DEVICE_NAME = "a3ae1c63";
       ```
 
-
 5. To know how execute the test,
-      * Open the cloned project in IntelliJ (Menu > Open )
       * Please follow the section "Executing the Test" in the blog.
 
