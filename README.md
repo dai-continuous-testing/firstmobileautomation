@@ -1,7 +1,7 @@
 # Mobile Automation basics using Java/Appium
 
 This project demonstrates Mobile Automation using Java and Appium in IntelliJ IDE.
-Project is associated with the Blog  # Complete Guide to Android Automation at link - <>
+Project is associated with the Blog - Complete Guide to Android Automation at link - https://experitest.com/mobile-app-testing/the-complete-guide-to-android-automation
 
 This example will cover:
 
@@ -37,12 +37,12 @@ Basic Test case creation using Java/TestNG framework using Appium Library/Appium
       public static final String APP_PATH = "C:\\eribank.apk";
       ```
 
-      Device name (After excecuting adb devices. See "Android device recognition" in the blogs)
+      Device name (After excecuting adb devices, See "Android device recognition" in the blog - https://experitest.com/mobile-app-testing/the-complete-guide-to-android-automation)
 
       ```
       public static final String DEVICE_NAME = "a3ae1c63";
       ```
 
 5. To know how execute the test,
-      * Please follow the section "Executing the Test" in the blog.
+      * Please follow the section "Executing the Test" in the blog - https://experitest.com/mobile-app-testing/the-complete-guide-to-android-automation.
 
