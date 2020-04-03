@@ -10,6 +10,7 @@ import org.openqa.selenium.ScreenOrientation;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import io.appium.java_client.remote.MobileCapabilityType;
@@ -25,12 +26,12 @@ import java.net.URL;
  */
 public class EribankTest {
 
-    DesiredCapabilities dc = new DesiredCapabilities();
-    protected AndroidDriver<AndroidElement> driver = null;
+    private DesiredCapabilities dc = new DesiredCapabilities();
+    private AndroidDriver<AndroidElement> driver = null;
 
-    public static final String APPIUM_SRV_URL = "http://localhost:4723/wd/hub";
-    public static final String APP_PATH = "C:\\eribank.apk";
-    public static final String DEVICE_NAME = "a3ae1c63";
+    private static final String APPIUM_SRV_URL = "http://localhost:4723/wd/hub";
+    private static final String APP_PATH = "C:\\eribank.apk";
+    private static final String DEVICE_NAME = "a3ae1c63";
 
     @BeforeTest
     public void setUp() throws MalformedURLException {
@@ -55,5 +56,10 @@ public class EribankTest {
         driver.findElement(By.xpath("//*[@text='Password']")).sendKeys("company");
         driver.findElement(By.xpath("//*[@text='Login']")).click();
 
+    }
+
+    @AfterTest
+    public void tearDown() {
+        driver.quit();
     }
 }
